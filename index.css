@@ -1,0 +1,60 @@
+/* === Dark Theme CSS Rules === */
+
+/* Select the entire body of the page */
+body {
+    font-family: Arial, sans-serif;
+    /* FIX: Set a dark background color */
+    background-color: #222; /* Dark grey */
+    /* FIX: Set a light default text color */
+    color: #eee; /* Light grey */
+    margin: 20px;
+    line-height: 1.5;
+}
+
+/* Select the main heading (h1) */
+h1 {
+    /* FIX: Make heading lighter, perhaps a different color */
+    color: #66b3ff; /* Light blue */
+    text-align: left;
+}
+
+/* Select all secondary headings (h2) */
+h2 {
+    /* FIX: Make subheading lighter */
+    color: #ccc; /* Slightly darker light grey */
+    /* FIX: Make the border lighter to be visible on dark background */
+    border-bottom: 1px solid #555; /* Darker grey border */
+    padding-bottom: 5px;
+}
+
+/* Select all paragraphs (p) - inherits the light grey from body, which is good */
+p {
+    margin-bottom: 15px;
+}
+
+/* Select unordered lists (ul) - inherits text color */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Select ordered lists (ol) - inherits text color */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Select all list items (li) - inherits text color */
+li {
+    margin-bottom: 5px;
+}
+
+/* Optional: Style links if you add them later */
+/*
+a {
+    color: #87ceeb; // Sky blue for links
+}
+a:visited {
+    color: #b0a4e3; // Light purple for visited links
+}
+*/
