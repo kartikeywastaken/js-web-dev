@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/images/table.jpg");
+    background-size: cover;
+    text-align: center;
+    color: hsl(0, 0%, 100%); 
+    margin: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    color: goldenrod; /* Light blue */
+    text-align: center;
+}
+
+#message {
+    font-style: italic;
+}
+
+#start {
+    background-color: goldenrod;
+    color: #016f32;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#newc {
+    background-color: goldenrod;
+    color: #016f32;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#newcEl {
+
+    font-style: italic;
+}
+
+h2 {
+    color: hsl(0, 0%, 0%); 
+    /* FIX: Make the border lighter to be visible on dark background */
+    border-bottom: 1px solid #555; /* Darker grey border */
+    padding-bottom: 5px;
+}
