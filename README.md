@@ -38,4 +38,4 @@ A basic counter app to practice incrementing state and innerText updates.
 4.  Select the folder containing `manifest.json`.
 
 ---
-*Created by Kartikey Juyal.*
+*Made by Kartikey Juyal.*
